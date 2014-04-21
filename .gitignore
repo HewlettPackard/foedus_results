@@ -9,3 +9,4 @@ trace_build
 *.kdev4
 *.kate-swp
 tmpdir
+*.preview.html
