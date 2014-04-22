@@ -41,28 +41,27 @@ README.markdown should describe at least the followings:
 
 
 Here is an example.
-```text
-Contact: kimurhid
-Experiment: foedus/storage/array/readonly_experiment.cpp
-Date: 2014/04/21
+
+    Contact: kimurhid
+    Experiment: foedus/storage/array/readonly_experiment.cpp
+    Date: 2014/04/21
 
 
-Version
--------
-Master latest as of 2014/04/21 noon.
+    Version
+    -------
+    Master latest as of 2014/04/21 noon.
 
-Environment
--------
-My Z820. 16 cores, 128GB memory. Release build.
+    Environment
+    -------
+    My Z820. 16 cores, 128GB memory. Release build.
 
-Details
--------
-300-320 MQPS for 16-bytes payload.
-One note is that I observed a significantly different throughput by placing
-"foedus::memory::AlignedMemory numbers_" as a member variable or a local variable.
-If it's member variable, I get 300MQPS. If local variable (although I call release_block()
-anyways), 150MQPS. It shouldn't affect anything. Mistery.
-```
+    Details
+    -------
+    300-320 MQPS for 16-bytes payload.
+    One note is that I observed a significantly different throughput by placing
+    "foedus::memory::AlignedMemory numbers_" as a member variable or a local variable.
+    If it's member variable, I get 300MQPS. If local variable (although I call release_block()
+    anyways), 150MQPS. It shouldn't affect anything. Mistery.
 
 If there are any scripts or files that would help re-running the experiments, put it there.
 Results files are ideally tar-ed into one file, but not mandatory.
