@@ -1,0 +1,146 @@
+2 nodes available
+memory with no policy memset              Avg 5150.94 MB/s Max 5261.29 MB/s Min 4576.94 MB/s
+local memory memset                       Avg 5261.56 MB/s Max 5266.58 MB/s Min 5256.02 MB/s
+memory interleaved on all nodes memset    Avg 3098.72 MB/s Max 3100.46 MB/s Min 3095.88 MB/s
+memory on node 0 memset                   Avg 5402.25 MB/s Max 5704.98 MB/s Min 5261.29 MB/s
+memory on node 1 memset                   Avg 2254.18 MB/s Max 2263.28 MB/s Min 2244.38 MB/s
+memory interleaved on 0 1 memset          Avg 3178.66 MB/s Max 3209.60 MB/s Min 3116.12 MB/s
+setting preferred node to 0
+memory without policy memset              Avg 5661.25 MB/s Max 5704.98 MB/s Min 5613.36 MB/s
+setting preferred node to 1
+memory without policy memset              Avg 2242.94 MB/s Max 2262.79 MB/s Min 2175.02 MB/s
+manual interleaving to all nodes memset   Avg 3182.52 MB/s Max 3234.35 MB/s Min 3128.21 MB/s
+manual interleaving on node 0/1 memset    Avg 3227.18 MB/s Max 3232.36 MB/s Min 3201.76 MB/s
+current interleave node 0
+running on node 0, preferred node 0
+local memory memset                       Avg 5692.60 MB/s Max 5704.98 MB/s Min 5634.48 MB/s
+memory interleaved on all nodes memset    Avg 3195.71 MB/s Max 3234.35 MB/s Min 3139.45 MB/s
+memory interleaved on node 0/1 memset     Avg 3196.49 MB/s Max 3233.35 MB/s Min 3131.01 MB/s
+alloc on node 1 memset                    Avg 2223.87 MB/s Max 2248.72 MB/s Min 2179.54 MB/s
+local allocation memset                   Avg 5621.49 MB/s Max 5708.09 MB/s Min 5385.60 MB/s
+setting wrong preferred node memset       Avg 2244.05 MB/s Max 2260.84 MB/s Min 2213.59 MB/s
+setting correct preferred node memset     Avg 5665.53 MB/s Max 5704.98 MB/s Min 5613.36 MB/s
+running on node 1, preferred node 0
+local memory memset                       Avg 5026.73 MB/s Max 5290.49 MB/s Min 4118.52 MB/s
+memory interleaved on all nodes memset    Avg 3920.50 MB/s Max 4167.63 MB/s Min 3250.39 MB/s
+memory interleaved on node 0/1 memset     Avg 3273.73 MB/s Max 3397.85 MB/s Min 3246.37 MB/s
+alloc on node 0 memset                    Avg 2396.36 MB/s Max 2397.84 MB/s Min 2393.46 MB/s
+local allocation memset                   Avg 5744.68 MB/s Max 5796.44 MB/s Min 5726.79 MB/s
+setting wrong preferred node memset       Avg 2484.60 MB/s Max 3204.69 MB/s Min 2258.40 MB/s
+setting correct preferred node memset     Avg 5851.10 MB/s Max 6773.75 MB/s Min 5729.92 MB/s
+memory with no policy memcpy              Avg 9143.49 MB/s Max 9271.23 MB/s Min 9008.38 MB/s
+local memory memcpy                       Avg 9165.87 MB/s Max 9254.86 MB/s Min 9094.33 MB/s
+memory interleaved on all nodes memcpy    Avg 6047.85 MB/s Max 6078.70 MB/s Min 6022.84 MB/s
+memory on node 0 memcpy                   Avg 4270.14 MB/s Max 4278.16 MB/s Min 4259.04 MB/s
+memory on node 1 memcpy                   Avg 9580.41 MB/s Max 10320.63 MB/s Min 9094.33 MB/s
+memory interleaved on 0 1 memcpy          Avg 7328.60 MB/s Max 8078.40 MB/s Min 6050.64 MB/s
+setting preferred node to 0
+memory without policy memcpy              Avg 5132.53 MB/s Max 5961.21 MB/s Min 4257.31 MB/s
+setting preferred node to 1
+memory without policy memcpy              Avg 9175.50 MB/s Max 9395.84 MB/s Min 9078.58 MB/s
+manual interleaving to all nodes memcpy   Avg 6053.43 MB/s Max 6107.02 MB/s Min 6015.93 MB/s
+manual interleaving on node 0/1 memcpy    Avg 6037.40 MB/s Max 6068.15 MB/s Min 5985.02 MB/s
+current interleave node 0
+running on node 0, preferred node 0
+local memory memcpy                       Avg 8165.84 MB/s Max 8992.93 MB/s Min 6508.85 MB/s
+memory interleaved on all nodes memcpy    Avg 5912.13 MB/s Max 5940.94 MB/s Min 5884.26 MB/s
+memory interleaved on node 0/1 memcpy     Avg 5896.18 MB/s Max 5924.16 MB/s Min 5864.52 MB/s
+alloc on node 1 memcpy                    Avg 4536.15 MB/s Max 4559.03 MB/s Min 4511.94 MB/s
+local allocation memcpy                   Avg 9497.97 MB/s Max 9781.49 MB/s Min 8962.19 MB/s
+setting wrong preferred node memcpy       Avg 4640.74 MB/s Max 4660.34 MB/s Min 4607.10 MB/s
+setting correct preferred node memcpy     Avg 9700.06 MB/s Max 9818.13 MB/s Min 9387.43 MB/s
+running on node 1, preferred node 0
+local memory memcpy                       Avg 8621.03 MB/s Max 8804.16 MB/s Min 8160.12 MB/s
+memory interleaved on all nodes memcpy    Avg 6045.76 MB/s Max 6096.37 MB/s Min 6015.93 MB/s
+memory interleaved on node 0/1 memcpy     Avg 6187.38 MB/s Max 6339.64 MB/s Min 6012.48 MB/s
+alloc on node 0 memcpy                    Avg 4565.38 MB/s Max 4586.95 MB/s Min 4531.44 MB/s
+local allocation memcpy                   Avg 9411.02 MB/s Max 9506.58 MB/s Min 9295.89 MB/s
+setting wrong preferred node memcpy       Avg 4384.96 MB/s Max 4488.77 MB/s Min 4255.58 MB/s
+setting correct preferred node memcpy     Avg 10126.28 MB/s Max 10210.09 MB/s Min 10015.05 MB/s
+memory with no policy random2             Avg 988.59 MB/s Max 989.69 MB/s Min 986.52 MB/s
+local memory random2                      Avg 988.81 MB/s Max 989.60 MB/s Min 986.52 MB/s
+memory interleaved on all nodes random2   Avg 745.11 MB/s Max 745.73 MB/s Min 744.15 MB/s
+memory on node 0 random2                  Avg 675.89 MB/s Max 678.08 MB/s Min 673.24 MB/s
+memory on node 1 random2                  Avg 988.70 MB/s Max 989.50 MB/s Min 986.99 MB/s
+memory interleaved on 0 1 random2         Avg 744.72 MB/s Max 746.37 MB/s Min 744.04 MB/s
+setting preferred node to 0
+memory without policy random2             Avg 673.94 MB/s Max 676.11 MB/s Min 662.90 MB/s
+setting preferred node to 1
+memory without policy random2             Avg 988.43 MB/s Max 989.50 MB/s Min 986.71 MB/s
+manual interleaving to all nodes random2  Avg 744.43 MB/s Max 746.58 MB/s Min 742.20 MB/s
+manual interleaving on node 0/1 random2   Avg 745.99 MB/s Max 751.51 MB/s Min 742.93 MB/s
+current interleave node 0
+running on node 0, preferred node 0
+local memory random2                      Avg 801.03 MB/s Max 840.27 MB/s Min 640.59 MB/s
+memory interleaved on all nodes random2   Avg 705.09 MB/s Max 705.73 MB/s Min 704.26 MB/s
+memory interleaved on node 0/1 random2    Avg 705.25 MB/s Max 706.59 MB/s Min 704.21 MB/s
+alloc on node 1 random2                   Avg 624.20 MB/s Max 675.93 MB/s Min 439.69 MB/s
+local allocation random2                  Avg 984.08 MB/s Max 988.76 MB/s Min 967.41 MB/s
+setting wrong preferred node random2      Avg 663.27 MB/s Max 675.76 MB/s Min 639.18 MB/s
+setting correct preferred node random2    Avg 982.37 MB/s Max 989.32 MB/s Min 973.97 MB/s
+running on node 1, preferred node 0
+local memory random2                      Avg 807.44 MB/s Max 840.21 MB/s Min 663.61 MB/s
+memory interleaved on all nodes random2   Avg 697.76 MB/s Max 706.16 MB/s Min 695.71 MB/s
+memory interleaved on node 0/1 random2    Avg 764.23 MB/s Max 778.80 MB/s Min 696.17 MB/s
+alloc on node 0 random2                   Avg 707.51 MB/s Max 708.16 MB/s Min 706.78 MB/s
+local allocation random2                  Avg 987.97 MB/s Max 989.60 MB/s Min 983.65 MB/s
+setting wrong preferred node random2      Avg 666.75 MB/s Max 668.35 MB/s Min 660.06 MB/s
+setting correct preferred node random2    Avg 970.16 MB/s Max 972.07 MB/s Min 967.59 MB/s
+memory with no policy STREAM              Copy 29349.61 MB/s Scale 28549.43 MB/s Add 30928.55 MB/s Triad 29959.40 MB/s
+local memory STREAM                       Copy 29379.02 MB/s Scale 28549.43 MB/s Add 30928.55 MB/s Triad 29959.40 MB/s
+memory interleaved on all nodes STREAM    Copy 30133.88 MB/s Scale 29145.39 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+memory on node 0 STREAM                   Copy 30133.88 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+memory on node 1 STREAM                   Copy 30133.88 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+memory interleaved on 0 1 STREAM          Copy 30133.88 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+setting preferred node to 0
+memory without policy STREAM              Copy 30010.51 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+setting preferred node to 1
+memory without policy STREAM              Copy 30010.51 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+manual interleaving to all nodes STREAM   Copy 30133.88 MB/s Scale 29261.74 MB/s Add 31777.74 MB/s Triad 30755.52 MB/s
+manual interleaving on node 0/1 STREAM    Copy 30133.88 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+current interleave node 0
+running on node 0, preferred node 0
+local memory STREAM                       Copy 16481.32 MB/s Scale 16030.76 MB/s Add 17335.59 MB/s Triad 16883.07 MB/s
+memory interleaved on all nodes STREAM    Copy 25518.07 MB/s Scale 24889.87 MB/s Add 26948.77 MB/s Triad 26085.65 MB/s
+memory interleaved on node 0/1 STREAM     Copy 25607.22 MB/s Scale 24889.87 MB/s Add 26965.30 MB/s Triad 26147.68 MB/s
+alloc on node 1 STREAM                    Copy 25607.22 MB/s Scale 24889.87 MB/s Add 26965.30 MB/s Triad 26147.68 MB/s
+local allocation STREAM                   Copy 25518.07 MB/s Scale 24889.87 MB/s Add 26965.30 MB/s Triad 26085.65 MB/s
+setting wrong preferred node STREAM       Copy 25607.22 MB/s Scale 24889.87 MB/s Add 26948.77 MB/s Triad 26085.65 MB/s
+setting correct preferred node STREAM     Copy 25607.22 MB/s Scale 24889.87 MB/s Add 26948.77 MB/s Triad 26085.65 MB/s
+running on node 1, preferred node 0
+local memory STREAM                       Copy 23307.05 MB/s Scale 22623.66 MB/s Add 24556.34 MB/s Triad 23824.70 MB/s
+memory interleaved on all nodes STREAM    Copy 30133.88 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+memory interleaved on node 0/1 STREAM     Copy 30010.51 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+alloc on node 0 STREAM                    Copy 30133.88 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+local allocation STREAM                   Copy 30133.88 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30734.03 MB/s
+setting wrong preferred node STREAM       Copy 30010.51 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+setting correct preferred node STREAM     Copy 30010.51 MB/s Scale 29261.74 MB/s Add 31686.17 MB/s Triad 30755.52 MB/s
+memory with no policy ptrchase            Avg 883.06 MB/s Max 884.05 MB/s Min 879.53 MB/s
+local memory ptrchase                     Avg 865.04 MB/s Max 883.23 MB/s Min 859.84 MB/s
+memory interleaved on all nodes ptrchase  Avg 838.63 MB/s Max 840.61 MB/s Min 836.79 MB/s
+memory on node 0 ptrchase                 Avg 828.57 MB/s Max 832.34 MB/s Min 825.07 MB/s
+memory on node 1 ptrchase                 Avg 883.16 MB/s Max 883.90 MB/s Min 881.30 MB/s
+memory interleaved on 0 1 ptrchase        Avg 859.04 MB/s Max 868.39 MB/s Min 855.84 MB/s
+setting preferred node to 0
+memory without policy ptrchase            Avg 851.05 MB/s Max 855.00 MB/s Min 847.33 MB/s
+setting preferred node to 1
+memory without policy ptrchase            Avg 881.60 MB/s Max 882.34 MB/s Min 880.05 MB/s
+manual interleaving to all nodes ptrchase Avg 859.64 MB/s Max 869.61 MB/s Min 855.70 MB/s
+manual interleaving on node 0/1 ptrchase  Avg 860.27 MB/s Max 867.38 MB/s Min 856.68 MB/s
+current interleave node 0
+running on node 0, preferred node 0
+local memory ptrchase                     Avg 815.48 MB/s Max 880.86 MB/s Min 742.20 MB/s
+memory interleaved on all nodes ptrchase  Avg 841.07 MB/s Max 858.43 MB/s Min 776.72 MB/s
+memory interleaved on node 0/1 ptrchase   Avg 825.46 MB/s Max 856.19 MB/s Min 777.41 MB/s
+alloc on node 1 ptrchase                  Avg 823.76 MB/s Max 846.72 MB/s Min 761.11 MB/s
+local allocation ptrchase                 Avg 867.14 MB/s Max 880.42 MB/s Min 814.43 MB/s
+setting wrong preferred node ptrchase     Avg 794.92 MB/s Max 840.21 MB/s Min 756.99 MB/s
+setting correct preferred node ptrchase   Avg 866.58 MB/s Max 880.86 MB/s Min 817.48 MB/s
+running on node 1, preferred node 0
+local memory ptrchase                     Avg 850.22 MB/s Max 882.49 MB/s Min 742.25 MB/s
+memory interleaved on all nodes ptrchase  Avg 860.89 MB/s Max 869.03 MB/s Min 855.70 MB/s
+memory interleaved on node 0/1 ptrchase   Avg 855.11 MB/s Max 856.61 MB/s Min 853.40 MB/s
+alloc on node 0 ptrchase                  Avg 839.12 MB/s Max 841.35 MB/s Min 837.25 MB/s
+local allocation ptrchase                 Avg 831.77 MB/s Max 882.94 MB/s Min 550.40 MB/s
+setting wrong preferred node ptrchase     Avg 840.21 MB/s Max 852.57 MB/s Min 836.32 MB/s
+setting correct preferred node ptrchase   Avg 881.79 MB/s Max 883.09 MB/s Min 880.64 MB/s
