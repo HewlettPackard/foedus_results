@@ -98,5 +98,5 @@ Finally, do not forget to re-compile *each time* after configuring them.
 
 That is it. Thank you very much.
 If you hit any issue, please do not hesitate to contact us (probably via the program chair).
---
-Tianzheng, Milind, and Hideaki.
+
+Tianzheng, Milind, and Hideaki. Dec'15.
