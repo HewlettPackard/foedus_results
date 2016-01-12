@@ -11,5 +11,6 @@ Results
 * 20160109_hcc_ycsb_dl580_ro_prof : same as above, except on DL580. CPU profile.
 * 20160109_hcc_ycsb_dh_rw.tar.gz : read-write. threshold 0, 50, 100, 256. size 1000, 10000, addres 0, 2, 4, 6, 8, 10.
 * 20160111_hcc_ycsb_dh_rw2.tar.gz : read-write. same as above, but new code.
-
+* 20160109_hcc_ycsb_dl580_ro.tar.gz : Used the ro script.
+* 20160109_hcc_ycsb_z820_ro.tar.gz : Used the ro script.
 
