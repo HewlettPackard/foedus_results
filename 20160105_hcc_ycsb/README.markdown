@@ -14,3 +14,4 @@ Results
 * 20160109_hcc_ycsb_dl580_ro.tar.gz : Used the ro script.
 * 20160109_hcc_ycsb_z820_ro.tar.gz : Used the ro script.
 * 20160111_hcc_ycsb_hp840_ro.tar : Read-only YCSB-F on HP840 laptop; running and result generation scripts included.
+* 20160113_hcc_ycsb_gh_ro.tar.gz: Used the ro script.
