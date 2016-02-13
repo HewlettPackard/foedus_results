@@ -16,3 +16,4 @@ Results
 * 20160111_hcc_ycsb_hp840_ro.tar : Read-only YCSB-F on HP840 laptop; running and result generation scripts included.
 * 20160113_hcc_ycsb_gh_ro.tar.gz: Used the ro script.
 * 20160113_hcc_ycsb_gh_rw_incomplete.tar.gz: Used the rw script. Incomplete as some runs got stuck. We will re-run Exp2 anyways, so fine.
+* 20160212_ycsb_gh_rw_all2.tar.gz: [New impl] Used the rw script. 0/5/126 and 127=pure OCC (RLL off).
