@@ -12,3 +12,4 @@ result_ycsb_20160110_rw.tar.gz filter=lfs diff=lfs merge=lfs -text
 20160301_orthus_result_dl_ycsb_rw.tar.gz filter=lfs diff=lfs merge=lfs -text
 20160301_orthus_result_gh_ycsb_rw.tar.gz filter=lfs diff=lfs merge=lfs -text
 20160301_orthus_result_z820_ycsb_rw.tar.gz filter=lfs diff=lfs merge=lfs -text
+20160304_orthus_result_gh_ycsb_rw.tar.gz filter=lfs diff=lfs merge=lfs -text

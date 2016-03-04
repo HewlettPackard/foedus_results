@@ -17,3 +17,5 @@ Results
 * 20160113_hcc_ycsb_gh_ro.tar.gz: Used the ro script.
 * 20160113_hcc_ycsb_gh_rw_incomplete.tar.gz: Used the rw script. Incomplete as some runs got stuck. We will re-run Exp2 anyways, so fine.
 * 20160212_ycsb_gh_rw_all2.tar.gz: [New impl] Used the rw script. 0/5/126 and 127=pure OCC (RLL off).
+* 20160301_orthus_result_xxx: Orthus YCSB RW. BEFORE the fix by Kun. Summarized result in subfolder.
+* 20160304_orthus_result_xxx: Orthus YCSB RW. AFTER the fix by Kun. Also more #ops tried. Summarized result in subfolder.
