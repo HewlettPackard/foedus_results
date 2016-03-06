@@ -19,3 +19,4 @@ Results
 * 20160212_ycsb_gh_rw_all2.tar.gz: [New impl] Used the rw script. 0/5/126 and 127=pure OCC (RLL off).
 * 20160301_orthus_result_xxx: Orthus YCSB RW. BEFORE the fix by Kun. Summarized result in subfolder.
 * 20160304_orthus_result_xxx: Orthus YCSB RW. AFTER the fix by Kun. Also more #ops tried. Summarized result in subfolder.
+* 20160306_hcc_tpcc_gh: FOEDUS TPC-C with/without HCC on GH.
