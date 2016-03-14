@@ -20,3 +20,9 @@ Results
 * 20160301_orthus_result_xxx: Orthus YCSB RW. BEFORE the fix by Kun. Summarized result in subfolder.
 * 20160304_orthus_result_xxx: Orthus YCSB RW. AFTER the fix by Kun. Also more #ops tried. Summarized result in subfolder.
 * 20160306_hcc_tpcc_gh: FOEDUS TPC-C with/without HCC on GH.
+* Results below this line is after the XID fix!
+* 20160313_hcc_ycsb_gh_rw: FOEDUS RW results. Only 50-record experiment. Has summary tsv
+* 20160313_hcc_tpcc_gh: FOEDUS TPCC results.  Has summary tsv
+
+
+
