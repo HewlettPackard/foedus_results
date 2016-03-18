@@ -23,6 +23,8 @@ Results
 * Results below this line is after the XID fix!
 * 20160313_hcc_ycsb_gh_rw: FOEDUS RW results. Only 50-record experiment. Has summary tsv
 * 20160313_hcc_tpcc_gh: FOEDUS TPCC results.  Has summary tsv
+* Results below this line is after the missing hotter() fix!
+* 20160318_hcc_ycsb_gh_rw: FOEDUS RW results. Only 50-record experiment. Has summary tsv
 
 
 

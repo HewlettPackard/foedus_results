@@ -20,3 +20,4 @@ result_ycsb_20160110_rw.tar.gz filter=lfs diff=lfs merge=lfs -text
 20160312_ycsb_rw_gh.tar.gz filter=lfs diff=lfs merge=lfs -text
 20160313_hcc_ycsb_gh_rw.tar.gz filter=lfs diff=lfs merge=lfs -text
 20160313_hcc_tpcc_gh.tar.gz filter=lfs diff=lfs merge=lfs -text
+20160318_hcc_ycsb_gh_rw.tar.gz filter=lfs diff=lfs merge=lfs -text
