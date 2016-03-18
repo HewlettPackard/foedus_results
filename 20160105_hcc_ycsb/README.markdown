@@ -25,6 +25,8 @@ Results
 * 20160313_hcc_tpcc_gh: FOEDUS TPCC results.  Has summary tsv
 * Results below this line is after the missing hotter() fix!
 * 20160318_hcc_ycsb_gh_rw: FOEDUS RW results. Only 50-record experiment. Has summary tsv
+* 20160318_hcc_ycsb_gh_shift: FOEDUS shifting workload. rec: 10 vs 1000000. op: 1 vs 20. 0.1s shift. Summary dat in plot folder
+* 20160318_hcc_ycsb_gh_shift_1r: FOEDUS shifting workload. rec: 1 vs 1000000. op: 1 vs 20. 0.1s shift. Summary dat in plot folder
 
 
 
