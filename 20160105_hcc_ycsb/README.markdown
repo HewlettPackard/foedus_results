@@ -28,6 +28,6 @@ Results
 * 20160318_hcc_ycsb_gh_shift: FOEDUS shifting workload. rec: 10 vs 1000000. op: 1 vs 20. 0.1s shift. Summary dat in plot folder
 * 20160318_hcc_ycsb_gh_shift_1r: FOEDUS shifting workload. rec: 1 vs 1000000. op: 1 vs 20. 0.1s shift. Summary dat in plot folder
 * 20160524_orthrus_waitdie_nowait: Orthrus runtype 3(wait-die) and 33(no-wait) on GH. 50 records.
-
+* 20160525_ycsb_s_gh: The additional YCSB-"S" experiment on gh. scan-length=1000.
 
 
